@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.my-btn {
+  @apply w-full py-3 rounded-md text-white font-semibold bg-gradient-to-r from-[#012169] via-[#003087] to-[#009CDE] cursor-pointer shadow-lg
+}
